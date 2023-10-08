@@ -1,81 +1,82 @@
-import React from "react";
+import React from 'react';
 
 const footer_data = [
   {
     id: 1,
-    title: "About",
-    cls: "col-xl-2",
-    footer_col: "footer-col-1",
+    title: 'About',
+    cls: 'col-xl-2',
+    footer_col: 'footer-col-1',
     links: [
-      { name: "About Us", link: "/about" },
-      { name: "Blog", link: "/blog" },
-      { name: "Careers", link: "/careers" },
-      { name: "Jobs", link: "/" },
-      { name: "In Press", link: "/" },
+      { name: 'About Us', link: '/about' },
+      { name: 'Blog', link: '/blog' },
+      { name: 'Careers', link: '/careers' },
+      { name: 'Jobs', link: '/' },
+      { name: 'In Press', link: '/' },
     ],
   },
   {
     id: 2,
-    title: "Quick Links",
-    cls: "col-xl-3",
-    footer_col: "footer-col-2",
+    title: 'Quick Links',
+    cls: 'col-xl-3',
+    footer_col: 'footer-col-2',
     links: [
-      { name: "Refund Policy", link: "/policy" },
-      { name: "Documentation", link: "/documentation" },
-      { name: "Chat online", link: "/chat-online" },
-      { name: "Order Cancel", link: "/order-cancel" },
-      { name: "Privacy Policy", link: "/privacy-policy" },
+      { name: 'Refund Policy', link: '/policy' },
+      { name: 'Documentation', link: '/documentation' },
+      { name: 'Chat online', link: '/chat-online' },
+      { name: 'Order Cancel', link: '/order-cancel' },
+      { name: 'Privacy Policy', link: '/privacy-policy' },
     ],
   },
   {
     id: 3,
-    title: "Support",
-    footer_col: "footer-col-3",
-    cls: "col-xl-3",
+    title: 'Support',
+    footer_col: 'footer-col-3',
+    cls: 'col-xl-3',
     links: [
-      { name: "Contact us", link: "/contact" },
-      { name: "Online Chat", link: "/online-chat" },
-      { name: "Whatsapp", link: "/whatsapp" },
-      { name: "Telegram", link: "/telegram" },
-      { name: "Ticketing", link: "/ticketing" },
+      { name: 'Contact us', link: '/contact' },
+      { name: 'Online Chat', link: '/online-chat' },
+      { name: 'Whatsapp', link: '/whatsapp' },
+      { name: 'Telegram', link: '/telegram' },
+      { name: 'Ticketing', link: '/ticketing' },
     ],
   },
 ];
 
-
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    name: "Facebook",
+    link: 'http://facebook.com',
+    target: '_blank',
+    icon: 'fab fa-facebook-f',
+    name: 'Facebook',
   },
   {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
+    link: 'https://www.youtube.com/',
+    target: '_blank',
+    icon: 'fab fa-youtube',
+    name: 'Youtube',
   },
   {
-    link: "https://www.basketball.com/",
-    target: "_blank",
-    icon: "fa-light fa-basketball",
-    name: "Instagram",
+    link: 'https://www.basketball.com/',
+    target: '_blank',
+    icon: 'fa-light fa-basketball',
+    name: 'Instagram',
   },
 
   {
-    link: "http://whatsapp.com",
-    target: "_blank",
-    icon: "fa-brands fa-whatsapp",
-    name: "Twitter",
+    link: 'http://whatsapp.com',
+    target: '_blank',
+    icon: 'fa-brands fa-whatsapp',
+    name: 'Twitter',
   },
 ];
 
 const copyright = {
-  logo: "/assets/img/logo/logo.png",
+  logo: '/assets/img/logo/logo.png',
   copyright_text: (
-    <>Copyright © Uxaction {new Date().getFullYear()}, All Rights Reserved</>
+    <>
+      Copyright © Uxaction {new Date().getFullYear()}, All Copyrights Reserved
+    </>
   ),
 };
 
@@ -112,20 +113,20 @@ const Footer = () => {
                 <div className="col-xl-4 col-lg-6 col-md-8">
                   <div className="footer-widget footer-col-4  mb-50">
                     <div className="footer-widget__text mb-35">
-                      <h3 className="footer-widget__title">Support</h3>
+                      <h3 className="footer-widget__title">Help</h3>
                     </div>
                     <p>
-                      Be the first one to know about discounts, offers and
-                      events. Unsubscribe whenever you like.
+                      Stay ahead with updates on discounts, offers, and events.
+                      Unsubscribe at your convenience.
                     </p>
                     <div className="footer-widget__f-newsletter mb-40">
-                      <form  onSubmit={(e) => e.preventDefault()}>
+                      <form onSubmit={(e) => e.preventDefault()}>
                         <span>
                           <i className="icon_mail_alt"></i>
                         </span>
-                        <input type="email" placeholder="Enter your email" />
+                        <input type="email" placeholder="Input your email" />
                         <button className="footer-widget__submit tp-border-btn2">
-                          Subscribe Now
+                          Join Now
                         </button>
                       </form>
                     </div>

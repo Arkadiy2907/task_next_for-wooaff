@@ -1,7 +1,6 @@
-import blog_data from "@/src/data/blog-data";
-import Link from "next/link";
-import React from "react";
-
+import blog_data from '@/src/data/blog-data';
+import Link from 'next/link';
+import React from 'react';
 
 const BlogArea = () => {
   return (
@@ -15,7 +14,9 @@ const BlogArea = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title mb-65 text-center">
-                <h2 className="tp-section-title mb-20">Latest Blogs & News</h2>
+                <h2 className="tp-section-title mb-20">
+                  Newest Blog Articles & News
+                </h2>
               </div>
             </div>
           </div>
@@ -37,7 +38,7 @@ const BlogArea = () => {
                   </div>
                   <div className="tp-blog__content">
                     <div className="tp-blog__meta mb-10">
-                      <Link href="/blog-details">Education</Link> <span>-</span>
+                      <Link href="/blog-details">Learning</Link> <span>-</span>
                       <Link href="/blog-details">{item.date}</Link>
                     </div>
                     <h3 className="tp-blog__title mb-15">
@@ -53,7 +54,7 @@ const BlogArea = () => {
             <div className="col-lg-12">
               <div className="blog-btn text-center">
                 <Link href="/blog" className="tp-btn">
-                  All Blog
+                  Complete Blog
                 </Link>
               </div>
             </div>

@@ -1,6 +1,6 @@
-import course_data from "@/src/data/course-data";
-import Link from "next/link";
-import React from "react";
+import course_data from '@/src/data/course-data';
+import Link from 'next/link';
+import React from 'react';
 
 const CourseArea = () => {
   return (
@@ -15,7 +15,7 @@ const CourseArea = () => {
             <div className="col-md-12">
               <div className="section-title mb-65">
                 <h2 className="tp-section-title mb-20">
-                  Explore Popular Courses
+                  Discover Trending Courses
                 </h2>
               </div>
             </div>
@@ -69,10 +69,14 @@ const CourseArea = () => {
                     <div className="tpcourse__category d-flex align-items-center justify-content-between">
                       <ul className="tpcourse__price-list d-flex align-items-center">
                         <li>
-                          <Link href={item.course_link}>{item.course_title}</Link>
+                          <Link href={item.course_link}>
+                            {item.course_title}
+                          </Link>
                         </li>
                         <li>
-                          <Link href={item.course_link}>{item.course_name}</Link>
+                          <Link href={item.course_link}>
+                            {item.course_name}
+                          </Link>
                         </li>
                       </ul>
                       <h5 className="tpcourse__course-price">
@@ -88,7 +92,7 @@ const CourseArea = () => {
             <div className="col-lg-12">
               <div className="course-btn mt-20">
                 <Link className="tp-btn" href="/course-details">
-                  Browse All Courses
+                  View All Courses
                 </Link>
               </div>
             </div>

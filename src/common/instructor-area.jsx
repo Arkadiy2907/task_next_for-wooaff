@@ -1,60 +1,60 @@
-import Link from "next/link";
-import React, { useRef } from "react";
-import Slider from "react-slick";
+import Link from 'next/link';
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
 
 // instructor_info
 const instructor_info = [
   {
     id: 1,
-    img: "/assets/img/bg/instructor-bg-01.jpg",
-    name: "Devon Lane",
-    title: "Instructor",
+    img: '/assets/img/bg/instructor-bg-01.jpg',
+    name: 'James Anderson',
+    title: 'Educator',
   },
   {
     id: 2,
-    img: "/assets/img/bg/instructor-bg-02.jpg",
-    name: "Jane Cooper",
-    title: "Instructor",
+    img: '/assets/img/bg/instructor-bg-02.jpg',
+    name: 'Emma Johnson',
+    title: 'Educator',
   },
   {
     id: 3,
-    img: "/assets/img/bg/instructor-bg-03.jpg",
-    name: "Courtney Henry",
-    title: "Instructor",
+    img: '/assets/img/bg/instructor-bg-03.jpg',
+    name: 'Olivia Smith',
+    title: 'Educator',
   },
   {
     id: 4,
-    img: "/assets/img/bg/instructor-bg-04.jpg",
-    name: "Devon Lane",
-    title: "Instructor",
+    img: '/assets/img/bg/instructor-bg-04.jpg',
+    name: 'Isabella Davis',
+    title: 'Educator',
   },
 ];
 
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    name: "Facebook",
+    link: 'http://facebook.com',
+    target: '_blank',
+    icon: 'fab fa-facebook-f',
+    name: 'Facebook',
   },
   {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter",
-    name: "Twitter",
+    link: 'http://twitter.com',
+    target: '_blank',
+    icon: 'fab fa-twitter',
+    name: 'Twitter',
   },
   {
-    link: "https://www.instagram.com/",
-    target: "_blank",
-    icon: "fab fa-instagram",
-    name: "Instagram",
+    link: 'https://www.instagram.com/',
+    target: '_blank',
+    icon: 'fab fa-instagram',
+    name: 'Instagram',
   },
   {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
+    link: 'https://www.youtube.com/',
+    target: '_blank',
+    icon: 'fab fa-youtube',
+    name: 'Youtube',
   },
 ];
 
@@ -106,7 +106,6 @@ const setting = {
 };
 
 const InstructorArea = ({ style_2 }) => {
- 
   const sliderRef = useRef(null);
 
   return (
@@ -121,8 +120,8 @@ const InstructorArea = ({ style_2 }) => {
             {style_2 ? (
               <div className="col-lg-12">
                 <div className="section-title mb-35 text-center">
-                  <span className="tp-sub-title-box mb-15">Instructor</span>
-                  <h2 className="tp-section-title">Our Expert Instructor</h2>
+                  <span className="tp-sub-title-box mb-15">Educator</span>
+                  <h2 className="tp-section-title">Our Expert Educator</h2>
                 </div>
               </div>
             ) : (
@@ -130,7 +129,7 @@ const InstructorArea = ({ style_2 }) => {
                 <div className="col-xl-6 col-lg-8 col-md-7 col-12">
                   <div className="section-title mb-65">
                     <h2 className="tp-section-title mb-20">
-                      Our Expert Instructor
+                      Our Expert Educator
                     </h2>
                   </div>
                 </div>
@@ -157,7 +156,7 @@ const InstructorArea = ({ style_2 }) => {
             )}
           </div>
           <div className="intruc-active mb-15 tp-slide-space">
-            <Slider {...setting}  ref={sliderRef}>
+            <Slider {...setting} ref={sliderRef}>
               {instructor_info.map((item) => (
                 <div key={item.id} className="tp-instruc-item">
                   <div className="tp-instructor text-center p-relative mb-30">
@@ -190,7 +189,7 @@ const InstructorArea = ({ style_2 }) => {
             <div className="col-lg-12">
               <div className="instructor-btn text-center">
                 <Link className="tp-btn" href="/instructor">
-                  All Instructor
+                  All Educator
                 </Link>
               </div>
             </div>

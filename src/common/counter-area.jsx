@@ -1,46 +1,52 @@
-import React from "react";
-import Count from "./count";
+import React from 'react';
+import Count from './count';
 
-// counter data 
+// counter data
 const counter_data = [
   {
     id: 1,
-    icon: "fi fi-rr-user",
-    count_number: 276,
-    thousand: "K",
-    title: "Worldwide Students",
+    icon: 'fi fi-rr-user',
+    count_number: 279,
+    thousand: 'K',
+    title: 'Global Students',
   },
   {
     id: 2,
-    icon: "fi fi-rr-document",
-    count_number: 23,
-    thousand: "",
-    title: "Years Experience",
+    icon: 'fi fi-rr-document',
+    count_number: 27,
+    thousand: '',
+    title: 'Years of Expertise',
   },
   {
     id: 3,
-    icon: "fi fi-rr-apps",
-    count_number: 735,
-    thousand: "",
-    title: "Professional Courses",
+    icon: 'fi fi-rr-apps',
+    count_number: 736,
+    thousand: '',
+    title: 'Professional Programs',
   },
   {
     id: 4,
-    icon: "fi fi-rr-star",
-    count_number: 407,
-    thousand: "K",
-    title: "Beautiful Review",
+    icon: 'fi fi-rr-star',
+    count_number: 417,
+    thousand: 'K',
+    title: 'Positive Reviews',
   },
 ];
-const CounterArea = ({style_counter}) => {
+
+const CounterArea = ({ style_counter }) => {
   return (
     <>
       <section
-        className={`tp-counter-area bg-bottom  ${style_counter ? "pb-60" : "grey-bg pt-120 pb-60"}  wow fadeInUp`}
+        className={`tp-counter-area bg-bottom  ${
+          style_counter ? 'pb-60' : 'grey-bg pt-120 pb-60'
+        }  wow fadeInUp`}
         data-wow-duration="1s"
         data-wow-delay=".4s"
-        
-        style={{ backgroundImage: style_counter ? null : `url(/assets/img/bg/shape-bg-1.png)`}}
+        style={{
+          backgroundImage: style_counter
+            ? null
+            : `url(/assets/img/bg/shape-bg-1.png)`,
+        }}
       >
         <div className="container">
           <div className="row">

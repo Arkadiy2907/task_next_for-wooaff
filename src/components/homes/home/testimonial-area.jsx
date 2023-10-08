@@ -1,57 +1,56 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
 
 const testimonial_data = [
   {
     id: 1,
-    name: "Courtney Henry",
-    img: "assets/img/icon/test-ava-01.png",
-    title: "Sr. UX/UI Designer",
+    name: 'John Smith',
+    img: 'assets/img/icon/test-ava-01.png',
+    title: 'Senior UX/UI Designer',
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
+        Dramatically provide transparent deliverables from backward-compatible
         internal or "organic" sources.
       </>
     ),
   },
   {
     id: 2,
-    name: "Devon Lane",
-    img: "assets/img/icon/test-ava-02.png",
-    title: "Software Engineer",
+    name: 'Emily Johnson',
+    img: 'assets/img/icon/test-ava-02.png',
+    title: 'Software Engineer',
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
+        Dramatically deliver transparent deliverables from backward-compatible
         internal or "organic" sources.
       </>
     ),
   },
   {
     id: 3,
-    name: "Jenny Wilson",
-    img: "assets/img/icon/test-ava-03.png",
-    title: "Content Writer",
+    name: 'Michael Davis',
+    img: 'assets/img/icon/test-ava-03.png',
+    title: 'Content Writer',
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
+        Dramatically supply transparent deliverables from backward-compatible
         internal or "organic" sources.
       </>
     ),
   },
   {
     id: 4,
-    name: "Jenny Wilson",
-    img: "assets/img/icon/test-ava-03.png",
-    title: "Content Writer",
+    name: 'Sarah Thompson',
+    img: 'assets/img/icon/test-ava-03.png',
+    title: 'Content Writer',
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
+        Dramatically provide transparent deliverables from backward-compatible
         internal or "organic" sources.
       </>
     ),
   },
 ];
-
 
 // slider setting
 const setting = {
@@ -113,9 +112,7 @@ const TestimonialArea = () => {
           <div className="row justify-content-between">
             <div className="col-xl-6 col-lg-8 col-md-8 col-12">
               <div className="section-title mb-65">
-                <h2 className="tp-section-title mb-20">
-                  Our Expert Instructor
-                </h2>
+                <h2 className="tp-section-title mb-20">Our Skilled Teacher</h2>
               </div>
             </div>
             <div className="col-xl-6 col-lg-4 col-md-4 col-6">
