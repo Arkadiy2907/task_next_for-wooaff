@@ -1,23 +1,23 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 const choose_data = {
-  bg_img: "/assets/img/bg/choose-img-01.jpg",
-  experiences_years: "23",
-  title: "Why Choose Us",
+  bg_img: '/assets/img/bg/choose-img-01.jpg',
+  experiences_years: '24',
+  title: 'Why Select Us',
   sub_title: (
     <>
-      Why You Choose Our
+      Why You Select Our
       <br />
       E-Pora Online learning
     </>
   ),
-  des: 'Dramatically supply transparent deliverables before & can backward comp internal or "organic" sources.',
+  des: 'Significantly provide transparent deliverables beforehand & can retroactively compare internal or "organic" sources.',
 
   choose_list: [
-    { title: "Increasing Your Learning Skills" },
-    { title: "High Quality Video & Audio Classes" },
-    { title: "Finish Your Course, Get Certificate" },
+    { title: 'Enhancing Your Learning Skills' },
+    { title: 'Premium Video & Audio Classes' },
+    { title: 'Complete Your Course, Obtain Certificate' },
   ],
 };
 
@@ -40,11 +40,11 @@ const ChooseArea = () => {
                   <ul>
                     <li>
                       <i>{experiences_years}+</i>
-                      <p>Years Experiences</p>
+                      <p>Years of Expertise</p>
                     </li>
                     <li>
                       <i className="fa-light fa-check"></i>
-                      <p>Fully Safe & Secure</p>
+                      <p>Completely Secure</p>
                     </li>
                   </ul>
                 </div>
@@ -54,12 +54,8 @@ const ChooseArea = () => {
               <div className="tp-choose-content mb-30">
                 <div className="section-title mb-25">
                   <span className="tp-sub-title mb-25">{title}</span>
-                  <h2 className="tp-section-title mb-20">
-                   {sub_title}
-                  </h2>
-                  <p>
-                    {des}
-                  </p>
+                  <h2 className="tp-section-title mb-20">{sub_title}</h2>
+                  <p>{des}</p>
                 </div>
                 <div className="tp-choose-list mb-35">
                   <ul>
@@ -72,7 +68,7 @@ const ChooseArea = () => {
                 </div>
                 <div className="choose-btn">
                   <Link href="/about" className="tp-btn">
-                    Explore Courses
+                    Discover Courses
                   </Link>
                 </div>
               </div>

@@ -1,58 +1,57 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 // category_data
 const category_data = [
   {
     id: 1,
-    img: "/assets/img/category/category-01.png",
-    title: "Design Deve",
-    link: "/course-grid",
+    img: '/assets/img/category/category-01.png',
+    title: 'Creative Development',
+    link: '/course-grid',
   },
   {
     id: 2,
-    img: "/assets/img/category/category-02.png",
-    title: "Development",
-    link: "/course-grid",
+    img: '/assets/img/category/category-02.png',
+    title: 'Software Engineering',
+    link: '/course-grid',
   },
   {
     id: 3,
-    img: "/assets/img/category/category-03.png",
-    title: "Marketing",
-    link: "/course-grid",
+    img: '/assets/img/category/category-03.png',
+    title: 'Promotion',
+    link: '/course-grid',
   },
   {
     id: 4,
-    img: "/assets/img/category/category-04.png",
-    title: "It & Software",
-    link: "/course-grid",
+    img: '/assets/img/category/category-04.png',
+    title: 'Technology and Software',
+    link: '/course-grid',
   },
   {
     id: 5,
-    img: "/assets/img/category/category-05.png",
-    title: "Videography",
-    link: "/course-grid",
+    img: '/assets/img/category/category-05.png',
+    title: 'Video Production',
+    link: '/course-grid',
   },
   {
     id: 6,
-    img: "/assets/img/category/category-06.png",
-    title: "Business Sys",
-    link: "/course-grid",
+    img: '/assets/img/category/category-06.png',
+    title: 'Business Systems',
+    link: '/course-grid',
   },
   {
     id: 7,
-    img: "/assets/img/category/category-07.png",
-    title: "Photography",
-    link: "/course-grid",
+    img: '/assets/img/category/category-07.png',
+    title: 'Photographic Art',
+    link: '/course-grid',
   },
   {
     id: 8,
-    img: "/assets/img/category/category-08.png",
-    title: "Musical Intru",
-    link: "/course-grid",
+    img: '/assets/img/category/category-08.png',
+    title: 'Instrumental Music',
+    link: '/course-grid',
   },
 ];
-
 
 const CategoryArea = () => {
   return (
@@ -67,7 +66,7 @@ const CategoryArea = () => {
           <div className="row text-center">
             <div className="col-lg-12">
               <div className="section-title mb-65">
-                <h2 className="tp-section-title">Top Categories</h2>
+                <h2 className="tp-section-title">Featured Categories</h2>
               </div>
             </div>
           </div>

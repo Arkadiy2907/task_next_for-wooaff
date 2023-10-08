@@ -1,6 +1,6 @@
 const course_data = [
     {
-        id: 1, 
+        id: 1,
         img: "/assets/img/course/course-thumb-01.jpg",
         icon: "/assets/img/icon/course-avata-01.png",
         title: "The Complete 2022 Web Development Camp",
@@ -13,7 +13,7 @@ const course_data = [
         course_price: "29.99",
     },
     {
-        id: 2, 
+        id: 2,
         img: "/assets/img/course/course-thumb-02.jpg",
         icon: "/assets/img/icon/course-avata-02.png",
         title: "Complete Web Design from Figma to Webflow",
@@ -26,7 +26,7 @@ const course_data = [
         course_price: "30.00",
     },
     {
-        id: 3, 
+        id: 3,
         img: "/assets/img/course/course-thumb-03.jpg",
         icon: "/assets/img/icon/course-avata-03.png",
         title: "SEO: Structured Data Markup for Web Masters",
@@ -38,9 +38,9 @@ const course_data = [
         course_name: "Development",
         course_price: "25.00",
     },
-  
+
     {
-        id: 4, 
+        id: 4,
         img: "/assets/img/course/course-thumb-04.jpg",
         icon: "/assets/img/icon/course-avata-04.png",
         title: "Complete Web Design from Figma Freelancing",
@@ -53,7 +53,7 @@ const course_data = [
         course_price: "20.00",
     },
     {
-        id: 5, 
+        id: 5,
         img: "/assets/img/course/course-thumb-05.jpg",
         icon: "/assets/img/icon/course-avata-05.png",
         title: "Dreamweaver - Coding your first website using",
@@ -66,7 +66,7 @@ const course_data = [
         course_price: "20.00",
     },
     {
-        id: 6, 
+        id: 6,
         img: "/assets/img/course/course-thumb-06.jpg",
         icon: "/assets/img/icon/course-avata-06.png",
         title: "How to Write Great Web Content - Better Search!",
@@ -77,7 +77,45 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "20.00",
+    },
+    {
+        id: 7,
+        img: "/assets/img/course/course-thumb-03.jpg",
+        icon: "/assets/img/icon/course-avata-03.png",
+        title: "SEO: Structured Data Markup for Web Masters",
+        cls_text: "40 Classes",
+        st_text: "500 Students",
+        start_text: "4.5",
+        course_title: "Marketing",
+        course_link: "/course-details",
+        course_name: "Advanced Development",
+        course_price: "35.00",
+    },
+    {
+        id: 8,
+        img: "/assets/img/course/course-thumb-05.jpg",
+        icon: "/assets/img/icon/course-avata-05.png",
+        title: "How to Write Great Web Content - Better Search!",
+        cls_text: "30 Classes",
+        st_text: "300 Students",
+        start_text: "4.5",
+        course_title: "Marketing",
+        course_link: "/course-details",
+        course_name: "Advanced Development",
+        course_price: "20.00",
+    },
+    {
+        id: 9,
+        img: "/assets/img/course/course-thumb-01.jpg",
+        icon: "/assets/img/icon/course-avata-01.png",
+        title: "How to Write Great Web Content - Better Search!",
+        cls_text: "40 Classes",
+        st_text: "200 Students",
+        start_text: "4.4",
+        course_title: "Marketing",
+        course_link: "/course-details",
+        course_name: "Advanced Development",
+        course_price: "20.00",
     }
-  
 ]
 export default course_data

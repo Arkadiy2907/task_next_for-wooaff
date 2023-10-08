@@ -1,34 +1,31 @@
-import React from "react";
+import React from 'react';
 
 const feature_content = [
   {
     id: 1,
-    icon: "fi fi-rr-paper-plane",
-    title: "Online Courses",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: 'fi fi-rr-paper-plane',
+    title: 'Online Courses',
+    des: 'Access world-class materials and interactive learning experiences to enhance your skills and knowledge.',
   },
   {
     id: 2,
-    icon: "fi fi-rr-user",
-    title: "Expert Trainer",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: 'fi fi-rr-user',
+    title: 'Expert Trainers',
+    des: 'Learn from industry experts who are passionate about sharing their knowledge and expertise.',
   },
-
   {
     id: 3,
-    icon: "fi fi-rr-document",
-    title: "Get Certificate",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: 'fi fi-rr-document',
+    title: 'Earn Certificates',
+    des: 'Receive certificates upon completion of courses to showcase your achievements and enhance your resume.',
   },
   {
     id: 4,
-    icon: "fi fi-rr-calendar",
-    title: "Life Time Access",
-    des: "Interactively provide access world class materials for unique catalysts for change my ocardinat.",
+    icon: 'fi fi-rr-calendar',
+    title: 'Lifetime Access',
+    des: 'Get lifetime access to course materials and updates, allowing you to revisit and reinforce your learning at any time.',
   },
 ];
-
-
 
 const FeatureArea = () => {
   return (
@@ -60,9 +57,7 @@ const FeatureArea = () => {
                     </div>
                     <div className="tpfea__text">
                       <h5 className="tpfea__title mb-20">{item.title}</h5>
-                      <p>
-                        {item.des}
-                      </p>
+                      <p>{item.des}</p>
                     </div>
                   </div>
                 </div>

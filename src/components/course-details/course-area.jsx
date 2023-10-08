@@ -1,6 +1,6 @@
-import our_course_data from "@/src/data/our-course-data";
-import Link from "next/link";
-import React from "react";
+import our_course_data from '@/src/data/our-course-data';
+import Link from 'next/link';
+import React from 'react';
 
 const CourseArea = () => {
   return (
@@ -67,14 +67,14 @@ const CourseArea = () => {
                           <img
                             src="/assets/img/icon/c-meta-01.png"
                             alt="meta-icon"
-                          />{" "}
+                          />{' '}
                           <span>{item.cls_text}</span>
                         </li>
                         <li>
                           <img
                             src="/assets/img/icon/c-meta-02.png"
                             alt="meta-icon"
-                          />{" "}
+                          />{' '}
                           <span>{item.st_text}</span>
                         </li>
                       </ul>
