@@ -65,12 +65,12 @@
     top: 25px;
     right: 25px;
     & i {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 50px;
       width: 50px;
-      line-height: 50px;
       font-size: 20px;
-      text-align: center;
       background: var(--tp-common-white);
       color: var(--tp-heading-secondary);
       border-radius: 50px;
