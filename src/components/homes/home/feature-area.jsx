@@ -48,7 +48,7 @@ const FeatureArea = () => {
               {feature_content.map((item) => (
                 <div key={item.id} className="col-xl-3 col-lg-6 col-md-6">
                   <div
-                    className="tpfea mb-30 wow fadeInUp"
+                    className="tpfea mb-30 wow fadeInUp conic"
                     data-wow-duration=".8s"
                     data-wow-delay=".6s"
                   >
