@@ -1,4 +1,5 @@
 import React from 'react';
+import LogoText from '../headers/logoText';
 
 const footer_data = [
   {
@@ -148,7 +149,7 @@ const Footer = () => {
                 <div className="col-md-5">
                   <div className="f-copyright__logo mb-30">
                     <a href="#">
-                      <img src={logo} alt="logo" />
+                      <LogoText value="kopaliani" />
                     </a>
                   </div>
                 </div>
