@@ -1,71 +1,72 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
+import LogoText from '../headers/logoText';
 
 // footer_three_content
 const footer_three_content = [
   {
     id: 1,
-    title: "About",
-    cls: "col-xl-2",
-    footer_col: "footer-3-col-1",
+    title: 'About',
+    cls: 'col-xl-2',
+    footer_col: 'footer-3-col-1',
     links: [
-      { name: "About Us", link: "/about" },
-      { name: "Blog", link: "/blog" },
-      { name: "Careers", link: "/" },
-      { name: "Jobs", link: "/about" },
-      { name: "In Press", link: "/" },
+      { name: 'About Us', link: '/about' },
+      { name: 'Blog', link: '/blog' },
+      { name: 'Careers', link: '/' },
+      { name: 'Jobs', link: '/about' },
+      { name: 'In Press', link: '/' },
     ],
   },
   {
     id: 2,
-    title: "Quick Links",
-    cls: "col-xl-3",
-    footer_col: "footer-3-col-2",
+    title: 'Quick Links',
+    cls: 'col-xl-3',
+    footer_col: 'footer-3-col-2',
     links: [
-      { name: "Refund Policy", link: "/about" },
-      { name: "Documentation", link: "/about" },
-      { name: "Chat online", link: "/contact" },
-      { name: "Order Cancel", link: "/about" },
-      { name: "Privacy Policy", link: "/" },
+      { name: 'Refund Policy', link: '/about' },
+      { name: 'Documentation', link: '/about' },
+      { name: 'Chat online', link: '/contact' },
+      { name: 'Order Cancel', link: '/about' },
+      { name: 'Privacy Policy', link: '/' },
     ],
   },
   {
     id: 3,
-    title: "Support",
-    cls: "col-xl-3",
-    footer_col: "footer-3-col-3",
+    title: 'Support',
+    cls: 'col-xl-3',
+    footer_col: 'footer-3-col-3',
     links: [
-      { name: "Contact us", link: "/contact" },
-      { name: "Online Chat", link: "/contact" },
-      { name: "Whatsapp", link: "/contact" },
-      { name: "Telegram", link: "/about" },
-      { name: "Ticketing", link: "/" },
+      { name: 'Contact us', link: '/contact' },
+      { name: 'Online Chat', link: '/contact' },
+      { name: 'Whatsapp', link: '/contact' },
+      { name: 'Telegram', link: '/about' },
+      { name: 'Ticketing', link: '/' },
     ],
   },
   {
     id: 4,
-    title: "FAQ",
-    cls: "col-xl-2",
-    footer_col: "footer-3-col-4",
+    title: 'FAQ',
+    cls: 'col-xl-2',
+    footer_col: 'footer-3-col-4',
     links: [
-      { name: "Account", link: "/contact" },
-      { name: "Deliveries", link: "/contact" },
-      { name: "Orders", link: "/contact" },
-      { name: "Payments", link: "/about" },
-      { name: "Return", link: "/" },
+      { name: 'Account', link: '/contact' },
+      { name: 'Deliveries', link: '/contact' },
+      { name: 'Orders', link: '/contact' },
+      { name: 'Payments', link: '/about' },
+      { name: 'Return', link: '/' },
     ],
   },
   {
     id: 5,
-    title: "Products",
-    cls: "col-xl-2",
-    footer_col: "footer-3-col-5",
+    title: 'Products',
+    cls: 'col-xl-2',
+    footer_col: 'footer-3-col-5',
     links: [
-      { name: "Overview", link: "/contact" },
-      { name: "Business Account", link: "/contact" },
-      { name: "Credit Card", link: "/contact" },
-      { name: "Integrations", link: "/about" },
-      { name: "Rewards", link: "/" },
+      { name: 'Overview', link: '/contact' },
+      { name: 'Business Account', link: '/contact' },
+      { name: 'Credit Card', link: '/contact' },
+      { name: 'Integrations', link: '/about' },
+      { name: 'Rewards', link: '/' },
     ],
   },
 ];
@@ -73,29 +74,29 @@ const footer_three_content = [
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    name: "Facebook",
+    link: 'http://facebook.com',
+    target: '_blank',
+    icon: 'fab fa-facebook-f',
+    name: 'Facebook',
   },
   {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
+    link: 'https://www.youtube.com/',
+    target: '_blank',
+    icon: 'fab fa-youtube',
+    name: 'Youtube',
   },
   {
-    link: "https://www.basketball.com/",
-    target: "_blank",
-    icon: "fa-light fa-basketball",
-    name: "Instagram",
+    link: 'https://www.basketball.com/',
+    target: '_blank',
+    icon: 'fa-light fa-basketball',
+    name: 'Instagram',
   },
 
   {
-    link: "http://whatsapp.com",
-    target: "_blank",
-    icon: "fa-brands fa-whatsapp",
-    name: "Twitter",
+    link: 'http://whatsapp.com',
+    target: '_blank',
+    icon: 'fa-brands fa-whatsapp',
+    name: 'Twitter',
   },
 ];
 
@@ -137,7 +138,7 @@ const FooterThree = () => {
                 <div className="col-xl-3 col-lg-3">
                   <div className="f-copyright__logo mb-30">
                     <Link href="home-3">
-                      <img src="/assets/img/logo/logo.png" alt="logo" />
+                      <LogoText value="kopaliani" />
                     </Link>
                   </div>
                 </div>
