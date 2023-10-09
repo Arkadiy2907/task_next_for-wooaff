@@ -14,18 +14,6 @@ const category_data = [
   { title: 'Fancy Style' },
 ];
 
-// const LogoText = ({ value }) => (
-//   <div className="logo__text">
-//     {value.split('').map((char, i) => (
-//       <div className="letter" style={{ '--delay': `${i * 0.2}s` }}>
-//         <span className="source">{char}</span>
-//         <span className="shadow">{char}</span>
-//         <span className="overlay">{char}</span>
-//       </div>
-//     ))}
-//   </div>
-// );
-
 const Header = () => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
@@ -40,13 +28,13 @@ const Header = () => {
             }`}
             id="header-sticky"
           >
-            <div className="container-fluid">
+            <div className="container-fluid glass">
               <div className="row align-items-center">
                 <div className="col-xxl-3 col-xl-3 col-lg-5 col-md-6 col-6">
                   <div className="logo-area d-flex align-items-center">
                     <div className="logo">
                       <Link href="/">
-                        <LogoText value="E-PORA." />
+                        <LogoText value="kopaliani" />
                       </Link>
                     </div>
                     <div className="header-cat-menu ml-40 d-none d-md-block">

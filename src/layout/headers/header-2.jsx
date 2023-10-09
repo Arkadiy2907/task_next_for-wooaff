@@ -29,7 +29,7 @@ const HeaderTwo = () => {
                   <div className="logo-area d-flex align-items-center">
                     <div className="logo">
                       <Link href="/">
-                        <LogoText value="E-PORA." />
+                        <LogoText value="kopaliani" />
                       </Link>
                     </div>
                     <div className="header-cat-menu ml-40">
